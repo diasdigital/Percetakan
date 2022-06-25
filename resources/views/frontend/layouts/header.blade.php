@@ -13,7 +13,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="{{ Request::is('/') ? 'active' : '' }}" href="/">beranda</a></li>
-          <li><a class="{{ Request::is('pesan') ? 'active' : '' }}" href="/pesan">Pesan</a></li>
+          <li><a class="{{ Request::is('kontak') ? 'active' : '' }}" href="/kontak">Hubungi kami</a></li>
           <li><a class="{{ Request::is('login') ? 'active' : '' }}" href="/login">Login</a></li>
           {{-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>

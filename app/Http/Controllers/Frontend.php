@@ -10,4 +10,9 @@ class Frontend extends Controller
     {
         return view('frontend.pages.index');
     }
+    
+    public function kontak()
+    {
+        return view('frontend.pages.kontak');
+    }
 }

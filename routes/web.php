@@ -15,4 +15,5 @@ use App\Http\Controllers\Frontend;
 */
 
 Route::get('/', [Frontend::class, 'index'])->name('beranda');
+Route::get('/kontak', [Frontend::class, 'kontak'])->name('kontak');
 
